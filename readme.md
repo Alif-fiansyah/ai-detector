@@ -1,4 +1,4 @@
-# 🔍 AI Text Detector & Academic Paraphraser
+# AI Text Detector & Academic Paraphraser
 
 A Python-based stylistic text analysis tool designed to detect indicators of AI generation (ChatGPT, Claude, Gemini, etc.) in essays, research drafts, and academic papers—specifically optimized for Indonesian linguistic patterns.
 
@@ -6,7 +6,7 @@ The system utilizes a **hybrid evaluation pipeline**: combining local statistica
 
 ---
 
-## ✨ Key Features
+## Key Features
 
 - **Local Statistical Profiling:** Computes word counts, average sentence lengths, and variance (burstiness) offline to conserve API tokens.
 - **AI Probability Scoring:** Provides an estimated AI generation score (0%–100%) alongside calibrated risk levels (*Low, Medium, High*).
@@ -16,7 +16,7 @@ The system utilizes a **hybrid evaluation pipeline**: combining local statistica
 
 ---
 
-## 🛠️ System Requirements
+## System Requirements
 
 - Python 3.10 or newer
 - Google Gemini API Key (obtainable for free via [Google AI Studio](https://aistudio.google.com/))
@@ -24,7 +24,7 @@ The system utilizes a **hybrid evaluation pipeline**: combining local statistica
 
 ---
 
-## 🚀 Installation & Setup
+## Installation & Setup
 
 ### 1. Clone the Repository
 ```bash
@@ -70,7 +70,7 @@ GEMINI_API_KEY=your_gemini_api_key_here
 
 ---
 
-## 💻 Usage Guide
+## Usage Guide
 
 1. **Run the script:**
    ```bash
